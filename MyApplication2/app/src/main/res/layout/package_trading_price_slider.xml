@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+    <SeekBar
+        android:id="@+id/seek_bar_to_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:max="100"
+        android:progress="0"
+        android:thumbOffset="-10dp"
+        android:progressDrawable="@drawable/custom_seekbar"
+        android:thumb="@drawable/ic_mouse_black_24dp" />
+    <SeekBar
+        android:id="@+id/seek_bar_to_read_values"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:max="100"
+        android:progress="0"
+        android:thumbOffset="-10dp"
+        android:progressDrawable="@color/transparent"
+        android:thumb="@color/transparent" />
+</FrameLayout>
